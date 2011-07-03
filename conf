@@ -19,3 +19,7 @@ apt-get update
 
 # Install
 install mysql-server
+
+# Clean up
+service mysql stop
+rm -fr /tmp/*
